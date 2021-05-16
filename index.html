@@ -11,16 +11,16 @@
 
 <body class="bg-gray-600">
     <section>
-        <div class="flex justify-around w-full mt-8">
+        <div class=" container mx-auto grid gap-8 md:grid-cols-3 w-full mt-8">
             <div>
                 <nav-header class="uppercase text-white font-black tracking-widest text-2xl">Car<span
                         class="uppercase text-blue-400 font-normal">repair</span></nav-header>
             </div>
-            <div class="w-1/2"> <input type="text" placeholder="Search..."
+            <div class="w-full"> <input type="text" placeholder="Search..."
                     class="w-full px-8 py-1 border-none  rounded focus:placeholder-blue-600"></div>
 
-            <ul class="space-x-4 text-xl cursor-pointer">
-                <li class="float-left text-white">Home</li>
+            <ul class="mx-auto space-x-4 text-xl cursor-pointer">
+                <li class="float-left text-white hover:text-red-700">Home</li>
                 <li class="float-left text-white hover:text-red-700">Contact</li>
                 <li class="float-left text-white hover:text-red-700">About</li>
                 <li class=" float-left text-white hover:text-red-700">Services</li>
@@ -30,11 +30,11 @@
 
     <section>
         <div class="mt-8 relative overflow-hidden">
-            <img src="./images/car.jpg" alt="" width="100%" height="auto" class="opacity-50">
-            <div class="absolute top-32 w-full flex justify-center items-center flex-col">
-                <p class="text-white font-serif font-thin text-6xl tracking-widest">Quality Car</p>
-                <p class="text-red-800 font-black font-serif text-6xl tracking-widest">Maintenance</p>
-                <p class="w-1/2 mt-4 text-white text-2xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            <img src="./images/car.jpg" alt="" height="auto" class="opacity-50 max-w-full">
+            <div class="absolute top-5 w-full flex justify-center items-center flex-col md:top-32">
+                <p class="text-white text-2xl font-serif font-thin md:text-6xl tracking-widest">Quality Car</p>
+                <p class="text-red-800 text-2xl font-black font-serif md:text-6xl tracking-widest">Maintenance</p>
+                <p class="w-1/2 mt-2 md:mt-4 text-base text-white md:text-2xl text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Libero
                     unde quibusdam sapiente in. Aliquid, quae. Officia assumenda corporis saepe non voluptatum fugziat
                     eius
@@ -42,7 +42,7 @@
                     ipsam
                     odit dolore suscipit dignissimos quos amet quidem in, dolorem nesciunt unde commodi ut non cum.</p>
                 <div><button
-                        class="bg-blue-500 text-white px-4 py-3 mt-8 hover:bg-red-500 transition-colors duration-700">About
+                        class="bg-blue-500 mt-3 text-white px-4 py-3 md:mt-8 hover:bg-red-500 transition-colors duration-700">About
                         More</button></div>
             </div>
         </div>
@@ -63,36 +63,36 @@
 
     <section class="service">
         <div class="bg-white flex justify-center items-center flex-col px-20">
-            <p class="text-4xl text-black uppercase tracking-widest font-bold mt-16">Our car services</p>
-            <div class="grid grid-cols-3 gap-4 mt-8 ">
+            <p class="text-4xl text-black uppercase tracking-widest font-bold mt-16 text-center">Our car services</p>
+            <div class="grid gap-4 mt-8 sm:grid-cols-2 md:grid-cols-3 ">
                 <div class="flex justify-center items-center flex-col">
                     <h3 class="capitalize text-black font-bold text-2xl">oil change</h3>
-                    <p class="text-gray-400 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
+                    <p class="text-gray-400 mt-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
                         provident itaque minima libero! Nesciunt nulla dolore quidem ipsam aperiam?</p>
                 </div>
                 <div class="flex justify-center items-center flex-col">
                     <h3 class="capitalize text-black font-bold text-2xl">engine repair</h3>
-                    <p class="text-gray-400 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
+                    <p class="text-gray-400 mt-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
                         provident itaque minima libero! Nesciunt nulla dolore quidem ipsam aperiam?</p>
                 </div>
                 <div class="flex justify-center items-center flex-col">
                     <h3 class="capitalize text-black font-bold text-2xl">tire change</h3>
-                    <p class="text-gray-400 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
+                    <p class="text-gray-400 mt-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
                         provident itaque minima libero! Nesciunt nulla dolore quidem ipsam aperiam?</p>
                 </div>
                 <div class="flex justify-center items-center flex-col">
                     <h3 class="capitalize text-black font-bold text-2xl">car maintenance</h3>
-                    <p class="text-gray-400 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
+                    <p class="text-gray-400 mt-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
                         provident itaque minima libero! Nesciunt nulla dolore quidem ipsam aperiam?</p>
                 </div>
                 <div class="flex justify-center items-center flex-col">
                     <h3 class="capitalize text-black font-bold text-2xl">New wheel</h3>
-                    <p class="text-gray-400 mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
+                    <p class="text-gray-400 mt-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
                         provident itaque minima libero! Nesciunt nulla dolore quidem ipsam aperiam?</p>
                 </div>
                 <div class="flex justify-center items-center flex-col">
                     <h3 class="capitalize text-black font-bold text-2xl">Tow truck</h3>
-                    <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
+                    <p class="text-gray-400 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. At explicabo
                         provident itaque minima libero! Nesciunt nulla dolore quidem ipsam aperiam?</p>
                 </div>
             </div>
@@ -106,10 +106,10 @@
         <div class="flex justify-center items-center flex-col">
             <h2 class="text-4xl text-white uppercase tracking-widest font-bold">Amazing works</h2>
             <p class="text-white text-2xl mt-4 capitalize">check out latest works</p>
-            <div class="grid grid-cols-2 mt-8">
+            <div class="grid md:grid-cols-2 sm:grid-cols-1 mt-8">
                 <img src="./images/work1.jpg" alt="" width="100%" height="auto">
                 <div class="bg-red-500 flex justify-center items-center flex-col px-16">
-                    <p class="text-white text-3xl uppercase font-bold">customization</p>
+                    <p class="text-white text-3xl uppercase font-bold mt-4 md:mt-0">customization</p>
                     <p class="mt-2 text-justify text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Consequuntur neque dignissimos totam
                         veritatis ducimus veniam nihil, aut magnam non odio, similique cum, pariatur harum impedit ea
@@ -122,7 +122,7 @@
                 </div>
 
                 <div class="bg-red-500 flex justify-center items-center flex-col px-16">
-                    <p class="text-white text-3xl uppercase font-bold">specification</p>
+                    <p class="text-white text-3xl uppercase font-bold mt-4 md:mt-0">specification</p>
                     <p class="mt-2 text-justify text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Consequuntur neque dignissimos totam
                         veritatis ducimus veniam nihil, aut magnam non odio, similique cum, pariatur harum impedit ea
@@ -130,7 +130,7 @@
                         temporibus ratione maxime cupiditate est veniam at tenetur ea fugit velit! Debitis, eaque quos
                         sit non aperiam minus hic libero.</p>
                     <div><button
-                            class="bg-gray-500 text-white px-4 py-3 mt-8 hover:bg-blue-500 transition-colors duration-700">Read
+                            class="bg-gray-500 text-white px-4 py-3 mt-8 hover:bg-blue-500 transition-colors duration-700 mb-4 md:mb-0">Read
                             More</button></div>
                 </div>
                 <img src="./images/work2.jpg" alt="" width="100%" height="auto">
@@ -141,27 +141,27 @@
     </section>
 
     <section class="contact">
-        <div class="mt-8 relative overflow-hidden h-128">
+        <div class="mt-8 relative overflow-hidden">
             <img src="./images/contact.jpg" alt="" width="100%" height="auto" class="opacity-60">
-            <div class="absolute top-32 w-full flex justify-center items-center flex-col">
-                <p class="text-white font-thin text-4xl tracking-widest font-bold">Get in touch</p>
-                <p class="text-white font-black font-serif text-2xl tracking-widest mt-4">Any question? Reach out to us
+            <div class="absolute top-5 w-full flex justify-center items-center flex-col md:top-32">
+                <p class="text-white font-thin md:text-4xl tracking-widest font-bold text-2xl">Get in touch</p>
+                <p class="text-white font-black font-serif md:text-2xl tracking-widest md:mt-4 mt-2 text-center text-base">Any question? Reach out to us
                     and We will get back to you shortly.</p>
 
-                <form class="mt-8">
-                    <input class="w-full text-center text-white p-2 border-b-2 border-white plasceholder-blue-500"
+                <form class="md:mt-8 mt-4">
+                    <input class="w-full text-center text-white md:p-2 p-1 border-b-2 border-white plasceholder-blue-500"
                         type="text" placeholder="Your Name">
-                    <input class="w-full text-center text-white p-2 border-b-2 border-white plasceholder-blue-500 mt-4"
+                    <input class="w-full text-center text-white md:p-2 p-1 border-b-2 border-white plasceholder-blue-500 md:mt-4 mt-2"
                         type="text" placeholder="Your Email">
-                    <textarea class="w-full text-center border-none border-b-2 border-black text-blue-100 p-2 mt-4"
+                    <textarea class="w-full text-center border-none border-b-2 border-black text-blue-100 md:p-2 p-1 md:mt-4 mt-2"
                         placeholder="Your Message"></textarea>
                 </form>
                 <div class="w-1/3 grid grid-cols-1 text-center"><button
-                        class="bg-red-500 text-white px-4 py-2 mt-8 hover:bg-blue-500 transition-colors duration-700">Submit</button>
+                        class="bg-red-500 text-white px-4 py-2 md:mt-8 mt-2 hover:bg-blue-500 transition-colors duration-700">Submit</button>
                 </div>
-                        <p class="text-white mt-32 font-thin text-4xl tracking-widest font-bold">Our contacts</p>
-                <p class="text-white font-black text-2xl tracking-widest mt-4">Phone: +8801613334444 |
-                <span class="text-white font-black text-2xl tracking-widest mt-4">Email: carrepair@gmail.com</span>
+                        <p class="text-white  md:mt-32 mt-2 font-thin md:text-4xl text-2xl tracking-widest font-bold">Our contacts</p>
+                <p class="text-white font-black md:text-2xl text-base tracking-widest md:mt-4 mt-1">Phone: +8801613334444 |
+                <span class="text-white font-black md:text-2xl text-base tracking-widest md:mt-4 mt-1">Email: carrepair@gmail.com</span>
                 </p>
                 
             </div>
